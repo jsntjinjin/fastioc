@@ -1,11 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'com.github.dcendents.android-maven'
-
-def siteUrl = 'https://github.com/leonHua/LFilePicker'   // 项目的主页
-def gitUrl = 'https://github.com/leonHua/LFilePicker.git'   // Git仓库的url
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 android {
     compileSdkVersion 25
